@@ -1,0 +1,145 @@
+/* Header Styles */
+.header {
+    height: 80px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2);
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+.logo {
+    align-self: center;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.logo a {
+    text-decoration: none;
+    color: var(--gris-oscuro);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav_list,
+.nav_session {
+    display: flex;
+    list-style: none;
+    gap: 0 2rem;
+    font-size: 1.125rem;
+}
+
+.nav_session {
+    gap: 0 1rem;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: var(--gris-oscuro);
+}
+
+.nav_item a:hover {
+    border-bottom: 1px solid var(--gris-oscuro);
+    padding-bottom: .5rem;
+    font-weight: 600;
+
+}
+
+.nav_session_btn {
+    background-color: var(--gris-oscuro);
+    color: var(--blanco);
+    padding: .5em 1em;
+    font-size: .99rem;
+    border-radius: 9999px;
+    text-decoration: none;
+
+    border: 1px solid var(--gris-oscuro);
+
+    transition: background-color .2s linear, color .2s linear ;
+}
+
+.nav_session_btn:hover {
+    background-color:var(--blanco);
+    color: var(--negro);
+
+}
+
+
+
+body {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+p, h2{
+    padding: 10px 0 10px 0;
+}

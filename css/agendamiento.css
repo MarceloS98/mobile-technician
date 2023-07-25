@@ -1,0 +1,147 @@
+/* Header Styles */
+.header {
+    height: 80px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2);
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+.logo {
+    align-self: center;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.logo a {
+    text-decoration: none;
+    color: var(--gris-oscuro);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav_list,
+.nav_session {
+    display: flex;
+    list-style: none;
+    gap: 0 2rem;
+    font-size: 1.125rem;
+}
+
+.nav_session {
+    gap: 0 1rem;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: var(--gris-oscuro);
+}
+
+.nav_item a:hover {
+    border-bottom: 1px solid var(--gris-oscuro);
+    padding-bottom: .5rem;
+    font-weight: 600;
+
+}
+
+.nav_session_btn {
+    background-color: var(--gris-oscuro);
+    color: var(--blanco);
+    padding: .5em 1em;
+    font-size: .99rem;
+    border-radius: 9999px;
+    text-decoration: none;
+
+    border: 1px solid var(--gris-oscuro);
+
+    transition: background-color .2s linear, color .2s linear ;
+}
+
+.nav_session_btn:hover {
+    background-color:var(--blanco);
+    color: var(--negro);
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+
+
+
+}
+
+.form-registrer {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    padding: 30px;
+    margin: 50px auto; /* 100px de margen superior e inferior, ajustado automáticamente en los laterales */
+    border-radius: 4px;
+    color: white;
+}
+
+.form-registrer .botons {
+    width: 100%;
+    background-color: black ;
+    border: none;
+    color: white;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+
+
+}
+
+.botons {
+
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.botons:hover {
+    background-color: #2980b9;
+}
+
+.form-registrer h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+
+    font-size: 18px;
+}
