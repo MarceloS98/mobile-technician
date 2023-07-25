@@ -140,3 +140,13 @@ h4 {
   margin-bottom: 30px;
   font-size: 20pt;
 }
+
+#video-container {
+  max-width: 800px; /* Ajusta el ancho máximo según lo desees */
+}
+iframe {
+  width: 100%;
+  height: 400px; /* Ajusta la altura del video según lo desees */
+  padding: 40px;
+  margin-left: 150px;
+}
