@@ -13,11 +13,10 @@
   margin: 0 auto;
 }
 
-.logo {
-  align-self: center;
-  font-weight: 900;
-  font-size: 1.2rem;
-  text-transform: uppercase;
+.logo img{
+  /* align-self: center; */
+  max-height: 60px;
+  max-width: 60px;
 }
 
 .logo a {
